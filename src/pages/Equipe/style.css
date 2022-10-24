@@ -1,0 +1,147 @@
+main {
+    width: 100%;
+    height: auto;
+    margin-bottom: 160px;
+}
+
+.insideMain {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.insideMainTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.insideMainTop h2 {
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #1E1E1E;
+}
+
+.seeMoreButton {
+    width: 140px;
+    height: 50px;
+    background-color: #FF8D07;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50px;
+    transition: .2s;
+}
+
+.seeMoreButton:hover {
+    color: #FF8D07;
+    background-color: #FFF2E2;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.content div {
+    width: calc(100% / 3);
+}
+
+.cardImg {
+    width: 100%;
+}
+
+.notification {
+    width: 100%;
+    height: auto;
+    margin-bottom: 160px;
+}
+
+.insideNotification {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #111;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    gap: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.insideNotification h2 {
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.insideNotification p {
+    width: 350px;
+}
+
+.alignNotification {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.email {
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+    transition: .2s;
+}
+
+.email:focus {
+    transform: scale(1.1);
+}
+
+.sendButton {
+    width: 100px;
+    height: 50p;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #FF8D07;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sendButton:hover {
+    background-color: #FFF2E2;
+    color: #FF8D07;
+}
+
+.dish {
+    position: absolute;
+    width: 200px;
+    top: 50%;
+    left: -15%;
+    transform: translate(0%, -50%);
+}
+
+.dish2 {
+    position: absolute;
+    width: 200px;
+    top: 50%;
+    right: -15%;
+    transform: translate(0%, -50%);
+}

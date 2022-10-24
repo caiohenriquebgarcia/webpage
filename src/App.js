@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Cardapio from './pages/Cardapio';
+import Equipe from './pages/Equipe';
 
-function App() {
+const Routes = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <Header />
+      <Switch>
+        <Route exact={true} path="/" component={Home} />
+        <Route path="/cardapio" component={Cardapio} />
+        <Route path="/equipe" component={Equipe} />
+      </Switch>
+      <Footer />
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default Routes;

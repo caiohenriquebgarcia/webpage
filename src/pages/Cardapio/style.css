@@ -1,0 +1,102 @@
+.dishes {
+    width: 100%;
+    height: auto;
+    margin-bottom: 160px;
+}
+
+.insideDishes {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.divCards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.bottom {
+    margin-bottom: 20px;
+}
+
+.insideDishes h2 {
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #1E1E1E;
+    margin-bottom: 60px;
+}
+
+.reservation {
+    width: 100%;
+    height: auto;
+    background-color: #FFF3D9;
+    margin-bottom: 160px;
+}
+
+.insideReservation {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+}
+
+.insideReservationLeft {
+    width: 50%;
+}
+
+.insideReservationLeft img {
+    width: 100%;
+}
+
+.insideReservationRight {
+    width: 50%;
+}
+
+.insideReservationRight h2 {
+    margin-bottom: 30px;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #1E1E1E;
+}
+
+.insideReservationRight p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    color: #606054;
+    margin-bottom: 30px;
+}
+
+.reservationButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #FF8D07;
+    color: #fff;
+    transition: .2s;
+}
+
+.reservationButton:hover {
+    background-color: transparent;
+    color: #FF8D07;
+    border: 1px solid #FF8D07;
+}
